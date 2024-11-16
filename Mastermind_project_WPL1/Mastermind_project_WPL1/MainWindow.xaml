@@ -7,17 +7,17 @@
         mc:Ignorable="d"
         Title="Mastermind" Height="450" Width="800">
     <Grid>
-        <ComboBox Name="ComboBox1" HorizontalAlignment="Left" Height="19" Margin="196,30,0,0" VerticalAlignment="Top" Width="162"/>
-        <ComboBox Name="ComboBox3" HorizontalAlignment="Left" Height="19" Margin="196,150,0,0" VerticalAlignment="Top" Width="162"/>
-        <ComboBox Name="ComboBox2" HorizontalAlignment="Left" Height="19" Margin="363,30,0,0" VerticalAlignment="Top" Width="162"/>
-        <ComboBox Name="ComboBox4" HorizontalAlignment="Left" Height="19" Margin="363,150,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="comboBox1" HorizontalAlignment="Left" Height="19" Margin="196,30,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="comboBox3" HorizontalAlignment="Left" Height="19" Margin="196,150,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="comboBox2" HorizontalAlignment="Left" Height="19" Margin="363,30,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="comboBox4" HorizontalAlignment="Left" Height="19" Margin="363,150,0,0" VerticalAlignment="Top" Width="162"/>
 
-        <Label Name="Label1" Content="" HorizontalAlignment="Left" Height="91" Margin="196,54,0,0" VerticalAlignment="Top" Width="162"/>
-        <Label Name="Label2" Content="" HorizontalAlignment="Left" Height="91" Margin="363,54,0,0" VerticalAlignment="Top" Width="162"/>
-        <Label Name="Label4" Content="" HorizontalAlignment="Left" Height="91" Margin="363,174,0,0" VerticalAlignment="Top" Width="162"/>
-        <Label Name="Label3" Content="" HorizontalAlignment="Left" Height="91" Margin="196,174,0,0" VerticalAlignment="Top" Width="162"/>
-        
-        <Button Content="Check code" HorizontalAlignment="Left" Height="30" Margin="191,370,0,0" VerticalAlignment="Top" Width="334"/>
+        <Label Name="label1" Content="" HorizontalAlignment="Left" Height="91" Margin="196,54,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label Name="label2" Content="" HorizontalAlignment="Left" Height="91" Margin="363,54,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label Name="label4" Content="" HorizontalAlignment="Left" Height="91" Margin="363,174,0,0" VerticalAlignment="Top" Width="162"/>
+        <Label Name="label3" Content="" HorizontalAlignment="Left" Height="91" Margin="196,174,0,0" VerticalAlignment="Top" Width="162"/>
+
+        <Button Name="checkButton" Content="Check code" HorizontalAlignment="Left" Height="30" Margin="196,383,0,0" VerticalAlignment="Top" Width="334" Click="checkButton_Click"/>
 
     </Grid>
 </Window>
