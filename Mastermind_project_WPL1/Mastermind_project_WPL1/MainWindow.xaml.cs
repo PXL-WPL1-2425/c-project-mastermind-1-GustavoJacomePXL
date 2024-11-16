@@ -22,6 +22,13 @@ namespace Mastermind_project_WPL1
             InitializeComponent();
 
             Title = GenerateRandomColorCode();
+
+            // Vul de ComboBoxen met kleuren
+            string[] colors = { "Rood", "Geel", "Oranje", "Wit", "Groen", "Blauw" };
+            ComboBox1.ItemsSource = colors;
+            ComboBox2.ItemsSource = colors;
+            ComboBox3.ItemsSource = colors;
+            ComboBox4.ItemsSource = colors;
         }
 
         // methode om random kleurencode te genereren

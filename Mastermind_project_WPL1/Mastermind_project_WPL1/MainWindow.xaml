@@ -7,10 +7,10 @@
         mc:Ignorable="d"
         Title="Mastermind" Height="450" Width="800">
     <Grid>
-        <ComboBox HorizontalAlignment="Left" Height="19" Margin="196,30,0,0" VerticalAlignment="Top" Width="162"/>
-        <ComboBox HorizontalAlignment="Left" Height="19" Margin="196,150,0,0" VerticalAlignment="Top" Width="162"/>
-        <ComboBox HorizontalAlignment="Left" Height="19" Margin="363,30,0,0" VerticalAlignment="Top" Width="162"/>
-        <ComboBox HorizontalAlignment="Left" Height="19" Margin="363,150,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="ComboBox1" HorizontalAlignment="Left" Height="19" Margin="196,30,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="ComboBox2" HorizontalAlignment="Left" Height="19" Margin="196,150,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="ComboBox3" HorizontalAlignment="Left" Height="19" Margin="363,30,0,0" VerticalAlignment="Top" Width="162"/>
+        <ComboBox Name="ComboBox4" HorizontalAlignment="Left" Height="19" Margin="363,150,0,0" VerticalAlignment="Top" Width="162"/>
         
         <Image HorizontalAlignment="Left" Height="91" Margin="196,54,0,0" VerticalAlignment="Top" Width="162"/>
         <Image HorizontalAlignment="Left" Height="91" Margin="363,54,0,0" VerticalAlignment="Top" Width="162"/>
